@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#51b46d"
     android:padding="16dp"
     tools:context="com.example.android.funfacts.MainActivity">
 
@@ -11,13 +12,14 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
-        android:weightSum="10" >
+        android:weightSum="10">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="Did you know?"
+            android:textColor="#80ffffff"
             android:textSize="24sp" />
 
         <TextView
@@ -27,6 +29,7 @@
             android:layout_weight="8"
             android:gravity="center_vertical"
             android:text="Ants stretch when they wake up in the morning."
+            android:textColor="@android:color/white"
             android:textSize="24sp" />
 
         <Button
@@ -34,7 +37,9 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="show another fun fact" />
+            android:background="@android:color/white"
+            android:text="show another fun fact"
+            android:textSize="16sp" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
